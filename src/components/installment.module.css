@@ -1,0 +1,61 @@
+.h2 {
+  text-align: center;
+  color: #000;
+}
+
+.inputDiv {
+  margin-top: 100px;
+  background-color: #fcf7f75d;
+}
+
+.input1 {
+  font-size: 2rem;
+}
+
+.label {
+  font-size: 5rem;
+}
+
+.id {
+  margin-right: 4rem;
+  font-size: 2rem;
+}
+
+.grade {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.p2 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.p3 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .inputDiv {
+    width: 100%;
+  }
+}
