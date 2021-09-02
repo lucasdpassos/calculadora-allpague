@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import './index.css';
+import Home from '../src/components/Home'
 
 import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
