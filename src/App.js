@@ -38,11 +38,3 @@ export default function App() {
   );
 }
 
-function Home1() {
-  return Home;
-}
-
-function Calc1() {
-  return Calc
-}
-

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import css from './installment.module.css';
 import styled from 'styled-components'
 import {
@@ -12,18 +12,10 @@ import {
 
 export default function Home() {
    
-  const [userName, setUserName] = useState('')
+  
   const [formVisible, setFormVisible] = useState(false)  
 
-  const image1 = require('../components/allp.png')
-
-  const routes = [
-    {
-      path: "/calc",
-      component: Calc
-    }
-]
-
+ 
 
   return (
       <Router>
